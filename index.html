@@ -12,34 +12,36 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <select>
+      <select id="city">
         <option value="">Select a city..</option>
-        <option value="">San Francisco</option>
-        <option value="">London</option>
-        <option value="">Lahore</option>
+        <option value="Americas/Los_Angeles">San Francisco</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Karachi">Lahore</option>
       </select>
 
-      <div class="city" id="san-francisco">
-        <div>
-          <h2>San Francisco 🇺🇸</h2>
-          <div class="date">August 15th 2022</div>
+      <div id="cities">
+        <div class="city" id="san-francisco">
+            <div>
+                <h2>San Francisco 🇺🇸</h2>
+                <div class="date"></div>
+            </div>
+            <div class="time"></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
-      </div>
-      <div class="city" id="london">
-        <div>
-          <h2>London 🇬🇧</h2>
-          <div class="date">August 15th 2022</div>
+        <div class="city" id="london">
+            <div>
+                <h2>London 🇬🇧</h2>
+                <div class="date"></div>
+            </div>
+            <div class="time"></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
-      </div>
-      <div class="city" id="lahore">
-        <div>
-          <h2>Lahore 🇵🇰</h2>
-          <div class="date">August 15th 2022</div>
+        <div class="city" id="lahore">
+            <div>
+                <h2>Lahore 🇵🇰</h2>
+                <div class="date"></div>
+            </div>
+            <div class="time"></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
-      </div>
+        </div>
     </div>
 
         <footer>
@@ -48,6 +50,7 @@
                 and is open sourced on 
             <a href="https://github.com/Maryam-coding/WorldClock/settings" target="_blank">Github</a>
         </footer>
+
         <script> src="worldclock/javascript/index.js"</script>
     </body>
 </html>
