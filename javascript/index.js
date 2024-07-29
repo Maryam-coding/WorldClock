@@ -1,3 +1,4 @@
+function updateTime() {
 let sanFranciscoElement = document.querySelector("#san-francisco");
 let sanFranciscoDateElement = sanFranciscoElement.querySelector(".date");
 let sanFranciscoTimeElement = sanFranciscoElement.querySelector(".time");
@@ -24,3 +25,7 @@ let lahoreTime = moment();
 lahoreDateElement.innerHTML = lahoreTime.format("MMMM Do YYYY");
 lahoreTimeElement.innerHTML = lahoreTime.format("h:mm:ss [<small>]A[</small>]");
 
+}
+
+updateTime();
+setInterval(updateTime,1000);
