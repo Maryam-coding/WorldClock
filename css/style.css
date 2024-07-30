@@ -50,6 +50,7 @@ body {
   .time {
     font-size: 48px;
     font-weight: bold;
+    padding:10px
   }
   
   .time small {
